@@ -4,7 +4,7 @@ command_not_found_handle() {
 
 python /data/data/com.termux/files/usr/etc/login_script.py
 
-PS1='\[\e[31m\]┌─[\[\e[37m\]\T\[\e[31m\]]─────\e[1;93m[root]\e[0;31m───[\#]\n|\n\e[0;31m└─[\[\e[31m\]\e[0;35m\W\[\e[31m\]]────►\e[1;92m'
+PS1="[\w] >> "
 
 clear
 echo "Created By HTR-TECH"
